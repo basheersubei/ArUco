@@ -49,7 +49,7 @@ int main(int argc,char **argv)
 	int typeBoard=0;
         if (argc>=5) pixSize=atoi(argv[4]);
         if (argc>=6) typeBoard=atoi(argv[5]);
-        if (argc>=7) interMarkerDistance=atoi(argv[6]);
+        if (argc>=7) interMarkerDistance=atof(argv[6]);
         aruco::BoardConfiguration BInfo;
         Mat BoardImage;
         if (typeBoard==0)
